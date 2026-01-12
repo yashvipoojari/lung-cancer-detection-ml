@@ -43,4 +43,3 @@ These results demonstrate the effectiveness of machine learning techniques in id
 ```bash
 pip install -r requirements.txt
 python src/train.py
-[main-proj (4).ipynb](https://github.com/user-attachments/files/24557581/main-proj.4.ipynb)
