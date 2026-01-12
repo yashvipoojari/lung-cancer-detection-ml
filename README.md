@@ -1,30 +1,38 @@
-# Lung Cancer Detection using Machine Learning
+# Road Accident Detection System using Machine Learning
 
 ## Overview
-This project is a machine learning–based system designed to assist in the early detection of lung cancer using patient medical data.
+This project focuses on detecting road accidents using machine learning techniques to improve road safety and enable faster emergency response.
 
 ## Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- Gradio
+- OpenCV
+- Matplotlib, Seaborn
 
 ## Dataset
 - Source: Kaggle
-- Records: 1000+
-- Features: Age, Smoking, Chest Pain, Genetic Risk, etc.
+- Data includes road images / accident indicators / traffic parameters
+
+## Approach
+- Data preprocessing and cleaning
+- Feature extraction
+- Model training and evaluation
+- Accident classification
 
 ## Models Used
 - Logistic Regression
 - Random Forest
+- Support Vector Machine (SVM)
 
 ## Results
-- Accuracy: 92%
-- Precision: 90%
-- Recall: 89%
-- F1-score: 0.89
+- Accuracy: XX%
+- Precision: XX%
+- Recall: XX%
+- F1-score: XX
 
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python app.py
+python src/train.py
+
